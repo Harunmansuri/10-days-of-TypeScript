@@ -25,9 +25,24 @@ let value2 = null;
 let value3 = undefined;
 let person = "harun"; //atomatically deetect type compiler decide kareag 
 let person2 = "harun"; //manually detect type developer decide karega 
+let hname = "harun mansuri";
+let age2 = 12;
+let personn4 = "harun mansuri";
+personn4 = 12; //the type number is assignable to type any
+let person8 = "harun mansuri";
+person8 = 12; //the type number is not assignable to type string
+//solution
+// if(typeof person8 === "string"){
+//    console.log(person8.toUpperCase());
+//}
 // tsc index.ts
 //tsc --watch
 //tsc --init
+//const salary: number = "harun";//the type string is not assignable to type number
 //let age: number = "harun";
 // type stig is not assgineed to number
+//strict yse karon
+//any avoid karo
+//meaningfullm veriables use kaeo
+//type inference use karo
 //# sourceMappingURL=index.js.map
